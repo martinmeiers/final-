@@ -25,13 +25,14 @@ import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged }
 import { getFirestore, collection, addDoc, onSnapshot, query } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "TON_API_KEY",
-  authDomain: "TON_AUTH_DOMAIN",
-  projectId: "TON_PROJECT_ID",
-  storageBucket: "TON_STORAGE_BUCKET",
-  messagingSenderId: "TON_MESSAGING_SENDER_ID",
-  appId: "TON_APP_ID"
+  apiKey: "AIzaSyBE6DCqf_90-FiMTmsiQkC7ZQLNq-ZXEa4",
+  authDomain: "workshop-calisthenie-2026.firebaseapp.com",
+  projectId: "workshop-calisthenie-2026",
+  storageBucket: "workshop-calisthenie-2026.firebasestorage.app",
+  messagingSenderId: "741126037954",
+  appId: "1:741126037954:web:adfcc2f14b74b2af17b65b"
 };
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
