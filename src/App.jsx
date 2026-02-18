@@ -42,7 +42,8 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
-const appId = typeof __app_id !== 'undefined' ? __app_id : 'workshop-2026';
+const appId = "workshop-2026";
+
 
 const CalisthenicsIcon = ({ className }) => (
   <svg 
