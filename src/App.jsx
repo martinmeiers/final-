@@ -31,7 +31,15 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
 import { getFirestore, collection, addDoc, onSnapshot, query } from 'firebase/firestore';
 
-const firebaseConfig = JSON.parse(__firebase_config);
+const firebaseConfig = {
+  apiKey: "AIzaSyBE6DCqf_90-FiMTmsiQkC7ZQLNq-ZXEa4",
+  authDomain: "workshop-calisthenie-2026.firebaseapp.com",
+  projectId: "workshop-calisthenie-2026",
+  storageBucket: "workshop-calisthenie-2026.firebasestorage.app",
+  messagingSenderId: "741126037954",
+  appId: "1:741126037954:web:adfcc2f14b74b2af17b65b"
+};
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
